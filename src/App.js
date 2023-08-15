@@ -18,6 +18,7 @@ import Parent from './components/Props/Parent';
 import BaiTapGiay from './components/BaiTapGiay/BaiTapGiay';
 import BaiTapDienThoai from './components/BaiTapDienThoai/BaiTapDienThoai';
 import BaiTapTuVung from './components/baitaptuvung/BaiTapTuVung/BaiTapTuVung';
+import DemoRedux from './components/DemoRedux/DemoRedux';
 
 function App() {
   return (
@@ -57,7 +58,8 @@ function App() {
     {/* <Parent/> */}
     {/* <BaiTapGiay/> */}
     {/* <BaiTapDienThoai/> */}
-    <BaiTapTuVung/>
+    {/* <BaiTapTuVung/> */}
+    <DemoRedux/>
     </>
     // cách gọi thẻ thứ hai
   );
